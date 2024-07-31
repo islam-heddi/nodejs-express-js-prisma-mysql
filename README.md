@@ -19,11 +19,13 @@ name : varchar(255)
 password: varchar(255)
 email: varchar(255)
 gender: varchar(255)
-id: int autodecrement unique
+id: int autoincrement unique
 
 and in prisma i used only the model of this table
 
 i didnt use the jsonwebtoken (because its useless here)
+
+use .env to set the port and and to set the database to yours
 
 Dont forget to do some changes in schema .prisma for your own useability and thanks
 
